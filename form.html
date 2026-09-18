@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register-form</title>
+    <link rel="icon" type="image/webp" href="./assets/icon.webp">
+</head>
+
+<body>
+    <header>
+        <h1>Registeration Form </h1>
+    </header>
+
+    <main>
+
+        <form action="/login">
+            <h2>Personal Information</h2>
+            <label for="name">Student Name:</label>
+            <input type="text" name="name" placeholder="Enter your name"> <br><br>
+
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" name="dob" id="dob" placeholder="Enter your DOB"> <br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="male" value="male">Male
+            <input type="radio" name="gender" id="female" value="female">Female <br><br>
+
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email"> <br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your mobile number"> <br><br>
+
+            <label for="address">Address:</label>
+            <textarea name="address" id="address" placeholder="Enter your address"></textarea>
+
+            <h2>Academic Information</h2>
+            <label for="courses">Select Domain:</label>
+            <select name="courses" id="courses">
+                <option value="frontend">Frontend</option>
+                <option value="backend">Backend</option>
+                <option value="database">Database</option>
+                <option value="fullstack">FullStack</option>
+            </select> <br><br>
+
+            <label id="p-language">Choose Programming Language:</label>
+            <input type="checkbox" name="language" id="python" value="python">Python
+            <input type="checkbox" name="language" id="java" value="java">Java
+            <input type="checkbox" name="language" id="cpp" value="cpp">C++
+
+            <h2>Upload Documents</h2>
+            <label for="tc">Transfer Certificate:</label>
+            <input type="file" name="tc" id="tc"><br><br>
+
+            <label for="photograph">Photograph:</label>
+            <input type="file" name="photograph" id="photograph"> <br><br>
+            
+            <input type="submit" value="Register">
+
+        </form>
+
+    </main>
+<footer style="text-align: center;">
+     <hr>
+        
+            <a href="index.html">Home</a>
+            <p>&copy; 2026 Code Tech Academy. All rights reserved</p>
+        
+</footer>
+
+</body>
+
+</html>
