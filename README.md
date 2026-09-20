@@ -21,6 +21,20 @@ I created this project to understand how HTML forms work and to practice differe
 * Submit button
 * Reset button
 
+## 📸 Screenshots
+
+### Home Page
+![Home Page](student-registration-home.png)
+
+### Registration Form
+![Registration Form](student-registarion-form.png)
+
+### About Page
+![About Page](student-registration-about.png)
+
+### Contact Page
+![Contact Page](student-registration-contact.png)
+
 ## 🛠️ Technologies Used
 
 * HTML5
