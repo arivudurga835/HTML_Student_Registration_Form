@@ -21,7 +21,9 @@ I created this project to understand how HTML forms work and to practice differe
 * Submit button
 * Reset button
 
-  ### Home Page
+## 📸 Screenshots
+
+### Home Page
 ![Portfolio Home](portfolio-home.png)
 
 ### About Page
